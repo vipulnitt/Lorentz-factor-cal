@@ -44,8 +44,8 @@ public class MainActivity2 extends AppCompatActivity {
                     {
                         double d = Math.pow(Math.pow(300000000, 2) - Math.pow(x, 2), 0.5);
                         double z = 300000000 / d;
-                       double m = Math.round(z*100000);
-                       m=m/100000;
+                       double m = Math.round(z*10000000);
+                       m=m/10000000;
                         if(m==y){
                             view.setBackgroundResource(R.color.Blue);
                             textView.setText("Correct Answer!");
